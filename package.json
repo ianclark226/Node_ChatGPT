@@ -1,0 +1,30 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot powered by ChatGPT",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianclark226/Node_ChatGPT.git"
+  },
+  "keywords": [
+    "Ian",
+    "Clark"
+  ],
+  "author": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianclark226/Node_ChatGPT/issues"
+  },
+  "homepage": "https://github.com/ianclark226/Node_ChatGPT#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
